@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+    <title>To do list</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="color"></div>
+        <div class="text">To-Do List</div>
+        <div class="sort" onclick="sortArray()">
+            <img class="sortimage" src="/image/Group38.png" alt="photo.svg">
+        </div>
+        <div class="tasks">
+            <div  id="inputdiv" class="test">
+                <input type="text" name="" id="enter" class="taskinput" >
+                <div class="removeinp"><img src="/image/Group 52.png" alt="photo.svg"></div>
+            </div>
+            <div id = "simple" >
+                <li class="taskin"></li>  
+                <div class="remove"><img src="/image/Group 52.png" alt="photo.svg"></div>
+            </div>      
+        </div>
+        <div class="send-button">
+            <button class="buttons">
+                <div class="ellipse">+</div>
+                <div class="add"><span>Добавить</span></div>
+            </button>
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>
